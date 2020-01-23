@@ -1,0 +1,75 @@
+Step1: create a directory
+mkdir devops
+
+Step2: Go to inside the directory 
+cd devops
+
+Step3: create a local repo
+git init
+
+Step4:
+
+create a file 
+touch 1.txt
+
+Step5:
+
+check the status of the git
+git status
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+       1.txt
+       
+Step6: 
+
+Here it will show the untracked for this we need to add the staging area
+git add 1.txt
+
+for check the now status
+git status
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   1.txt
+
+step 7: Do commit
+
+git commit -m 1.txt "1.txt commited by vishal"
+
+
+step8:
+ add the local repo to remote repo
+
+git remote add origin "repo url"
+
+step 9 :
+
+Push the file from local to remote repo.
+
+ git push origin master
+ 
+ Here it will ask the user name and password. 
+ 
+ Put the github username and password.
+ 
+ Check the remote repo file have been successfully pushed from local repo to remote repo.
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
