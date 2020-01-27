@@ -1,0 +1,42 @@
+Download the file Central repo to his system ( own server )
+
+Step1: create a directory
+
+mkdir central_to_localhissystem 
+ cd central_to_localhissystem/
+ 
+ Step 2 : Take the clone of central repo.
+                                   username  Centralrepo
+ git clone   https://github.com/vishalupd/Devops.git ---( Central repo )
+ 
+ Step 3 : Step check central repo is came or not in our his system ( own server )
+ 
+ ll
+  cd Devops  ( central repo directory )
+inside all the central repo file is came.
+
+
+Note : If we are adding the here a file it will come in centarl repo but not it will come in our local system.
+
+ touch 7.txt
+ git add 7.txt
+ git commit -m "7.txt is commited"
+ git push origin master
+ ls -l 
+ 
+ new file 7.txt is come in the inside of central repo Devops inside. but we need to do in our local system
+ 
+ go to inside of local repo directory
+ 
+ cd devops
+  git pull origin master
+  
+  ls -l 
+  
+  now 7.txt file will come the in our local system.
+  
+  
+  
+  
+ 
+
